@@ -1,0 +1,68 @@
+/* Base Color Palette */
+:root {
+    --primary-color: #3498db; /* Blue */
+    --secondary-color: #2ecc71; /* Green */
+    --background-color: #f7f7f7; /* Light grey */
+    --text-color: #333; /* Dark grey */
+    --border-color: #e0e0e0; /* Light border */
+    --button-color: #2980b9; /* Darker Blue */
+  }
+  
+  /* Apply Colors */
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+  }
+  
+  button {
+    background-color: var(--button-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 35%;
+  }
+  
+  button:hover {
+    background-color: var(--secondary-color);
+    
+  }
+  
+  input {
+    border: 1px solid var(--border-color);
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .login-container {
+    background-color: white;
+    border: 1px solid var(--border-color);
+    padding: 50px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    top: 447px;
+    margin-top: 10%;
+    margin-left:30%;
+left: 121px;
+width: 1440px;
+/* height: 900px; */
+/* UI Properties */
+opacity: 1;
+  }
+  
+  .chart-container {
+    background-color: white;
+    border: 1px solid var(--border-color);
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+  }
+  
